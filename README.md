@@ -1,5 +1,7 @@
 1. Overview
------------
+===========
+
+```
 .
 ├── binder_test         binder驱动测试程序，发送两个数字，service做加法返回。
 ├── bw_binder           测试binder的bandwidth
@@ -19,9 +21,10 @@
 └── README
 └── run_scripts         循环执行测试程序，获得bandwidth和latency与数据量以及
                         concurrents的关系.
+```
 
 2. How to run
--------------
+============
 
 - Put project in external/ of android source code.
 - Compile Android source,then it will be compiled into bins.or you can 
@@ -30,10 +33,15 @@
 - Run the bins through adb on android.
 
 3. Synopsis
-------------
+===========
+
 If you don't know how to run it,please run it with `--help`.
-e.g.: ./bw_binder --help
-[-m]: send msg size each rpc
-[-M]: send msg size each iteration
-[-n]: iteration num.
+e.g.: 
+
+```
+./bw_binder --help
+-m: send msg size each rpc
+-M: send msg size each iteration
+-n: iteration num.
+```
 
