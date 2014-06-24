@@ -1,0 +1,14 @@
+parse ftrace out
+================
+
+```
+python trace_binder.py data/binder_ftrace_200001010005.txt data/binder_ftrace_ref_200001010005.txt
+```
+parse binder transaction
+=============================================
+
+transaction_log is here: `/sys/kernel/debug/binder/transaction_log`
+
+```
+python trace_transaction.py data/binder_transactionlog_200001010005.txt data/binder_ftrace_ref_200001010005.txt
+```

@@ -1,6 +1,7 @@
 #--*-- coding:utf-8 --*--
 #
-#     Author: Feng,Li(lifeng1519@gmail.com)
+#     Author: Feng,Li
+#     Mail  :   lifeng1519@gmail.com
 
 """
 获取Binder调用的Client端和Service端
@@ -13,9 +14,10 @@
 - 当一个进程A调用完binder_thread_read之后，被切换走，运行另外一个进程B从binder_thread_read继续调用，可以得出结论，binder的调用是从A--->B的。
 
 工具见： https://gist.github.com/vonnyfly/40c3299b917306c20498
+"""
 
 import sys
-"""
+import os
 
 def ps_parser(psfile):
   '''
@@ -29,7 +31,7 @@ def ps_parser(psfile):
     fields = line.split()
     if len(fields) < 9:
       continue
-    pid_list[fields[1]] = [fields[2]," ".join(fields[8:])]
+    pid_list[fields[1]] = [fields[2],os.path.basename(" ".join(fields[8:]))]
   return pid_list
 
 """

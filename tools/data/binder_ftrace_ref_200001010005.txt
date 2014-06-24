@@ -1,0 +1,377 @@
+USER     PID   PPID  VSIZE  RSS     WCHAN    PC         NAME
+root      1     0     372    216   c01217a8 000086e8 S /init
+root      2     0     0      0     c0070948 00000000 S kthreadd
+root      3     2     0      0     c0055e78 00000000 S ksoftirqd/0
+root      4     2     0      0     c0069358 00000000 S kworker/0:0
+root      5     2     0      0     c0069358 00000000 S kworker/u:0
+root      6     2     0      0     c0097940 00000000 S migration/0
+root      7     2     0      0     c0097940 00000000 S migration/1
+root      8     2     0      0     c0069358 00000000 S kworker/1:0
+root      9     2     0      0     c0055e78 00000000 S ksoftirqd/1
+root      10    2     0      0     c006b168 00000000 S khelper
+root      11    2     0      0     c04241cc 00000000 S kdevtmpfs
+root      12    2     0      0     c006b168 00000000 S netns
+root      16    2     0      0     c006b168 00000000 S suspend
+root      65    2     0      0     c00993a8 00000000 S irq/104-serial 
+root      67    2     0      0     c00993a8 00000000 S irq/105-serial 
+root      69    2     0      0     c00993a8 00000000 S irq/106-serial 
+root      326   2     0      0     c00e9e0c 00000000 S sync_supers
+root      328   2     0      0     c00eafb4 00000000 S bdi-default
+root      330   2     0      0     c006b168 00000000 S kblockd
+root      346   2     0      0     c006b168 00000000 S omap2_mcspi
+root      360   2     0      0     c0470f34 00000000 S khubd
+root      374   2     0      0     c04395dc 00000000 S twl6030-irq
+root      379   2     0      0     c00993a8 00000000 S irq/372-twl6030
+root      380   2     0      0     c00993a8 00000000 S irq/378-twl6030
+root      424   2     0      0     c006b168 00000000 S cfg80211
+root      514   2     0      0     c006b168 00000000 S rpciod
+root      522   2     0      0     c00e23ec 00000000 S kswapd0
+root      524   2     0      0     c014ef90 00000000 S fsnotify_mark
+root      525   2     0      0     c021f85c 00000000 S ecryptfs-kthrea
+root      527   2     0      0     c006b168 00000000 S nfsiod
+root      529   2     0      0     c006b168 00000000 S crypto
+root      558   2     0      0     c006b168 00000000 S dsscomp_apply
+root      559   2     0      0     c006b168 00000000 S dsscomp_apply
+root      560   2     0      0     c006b168 00000000 S dsscomp_apply
+root      561   2     0      0     c006b168 00000000 S dsscomp_cb
+root      573   2     0      0     c006b168 00000000 S pvr_timer
+root      628   2     0      0     c00993a8 00000000 S irq/158-TAlert
+root      629   2     0      0     c00993a8 00000000 S irq/246-tshut
+root      632   2     0      0     c00993a8 00000000 S irq/151-twl6040
+root      683   2     0      0     c006b168 00000000 S f_mtp
+root      688   2     0      0     c04adec4 00000000 S file-storage
+root      703   2     0      0     c006b168 00000000 S kpsmoused
+root      705   2     0      0     c006b168 00000000 S 2-0038
+root      709   2     0      0     c00993a8 00000000 S irq/199-ads7846
+root      714   2     0      0     c00993a8 00000000 S irq/316-4-0053
+root      737   2     0      0     c00993a8 00000000 S irq/379-rtc0
+root      765   2     0      0     c0069358 00000000 S kworker/u:2
+root      775   2     0      0     c006b168 00000000 S binder
+root      798   2     0      0     c00993a8 00000000 S irq/131-ABE
+root      799   2     0      0     c0069358 00000000 S kworker/u:3
+root      801   2     0      0     c0069358 00000000 S kworker/u:5
+root      803   2     0      0     c0531344 00000000 S mmcqd/0
+root      875   2     0      0     c0069358 00000000 S kworker/1:2
+root      879   2     0      0     c0069358 00000000 S kworker/0:3
+root      1629  2     0      0     c00993a8 00000000 S irq/196-pandabo
+root      1630  2     0      0     c00993a8 00000000 S irq/192-pandabo
+root      1631  2     0      0     c00993a8 00000000 S irq/198-pandabo
+root      1632  2     0      0     c00993a8 00000000 S irq/193-pandabo
+root      1633  2     0      0     c00993a8 00000000 S irq/197-pandabo
+root      1645  1     344    180   c01217a8 000086e8 S /sbin/ueventd
+root      2071  2     0      0     c01fce9c 00000000 S jbd2/mmcblk0p2-
+root      2072  2     0      0     c006b168 00000000 S ext4-dio-unwrit
+root      2073  2     0      0     c01fce9c 00000000 S jbd2/mmcblk0p3-
+root      2074  2     0      0     c006b168 00000000 S ext4-dio-unwrit
+root      2075  2     0      0     c01fce9c 00000000 S jbd2/mmcblk0p5-
+root      2076  2     0      0     c006b168 00000000 S ext4-dio-unwrit
+root      2077  1     860    436   c03c86fc 4003ced8 S /system/bin/sh
+system    2078  1     896    276   c054db18 40098110 S /system/bin/servicemanager
+root      2079  1     4184   796   ffffffff 40045714 S /system/bin/vold
+root      2111  2079  4184   796   c01217a8 40045234 S vold
+root      2148  2079  4184   796   c01217a8 40045234 S vold
+root      2080  1     6584   1068  ffffffff ffff0520 S /system/bin/netd
+root      2151  2080  6584   1068  c01217a8 400c9234 S netd
+root      2152  2080  6584   1068  c01217a8 400c9234 S netd
+root      2155  2080  6584   1068  c01217a8 400c9234 S netd
+root      2156  2080  6584   1068  c01217a8 400c9234 S netd
+root      2081  1     764    288   c05a0a28 40103a18 S /system/bin/debuggerd
+radio     2082  1     3552   736   ffffffff 40064714 S /system/bin/rild
+radio     2125  2082  3552   736   c01217a8 40064234 S rild
+radio     2127  2082  3552   736   c00763a4 40064714 S rild
+system    2083  1     67064  23936 ffffffff 40089110 S /system/bin/surfaceflinger
+system    2162  2083  67064  23936 00000000 40088ef4 R SurfaceFlinger
+system    2163  2083  67064  23936 c0093fe8 40088ed8 S DisplayEventThr
+system    2174  2083  67064  23936 c01217a8 40089e9c S SurfaceFlinger
+system    2175  2083  67064  23936 c054db18 40089110 S Binder Thread #
+system    2183  2083  67064  23936 c054db18 40089110 S Binder Thread #
+system    2184  2083  67064  23936 c054db18 40089110 S Binder Thread #
+root      2084  1     446132 36528 ffffffff 4002c234 S zygote
+root      2606  2084  446132 36528 c0084bc0 4002d030 S ReferenceQueueD
+root      2608  2084  446132 36528 c0084bc0 4002d030 S FinalizerDaemon
+root      2609  2084  446132 36528 c0084bc0 4002d030 S FinalizerWatchd
+drm       2085  1     13788  4032  ffffffff 400de110 S /system/bin/drmserver
+drm       2166  2085  13788  4032  c054db18 400de110 S Binder Thread #
+media     2086  1     31364  6356  ffffffff 400d1110 S /system/bin/mediaserver
+media     2170  2086  31364  6356  c0084bc0 400d2030 S AudioCommandThr
+media     2171  2086  31364  6356  c0084bc0 400d2030 S ApmCommandThrea
+media     2172  2086  31364  6356  c0084bc0 400d2030 S AudioOut_1
+media     2173  2086  31364  6356  c054db18 400d1110 S Binder Thread #
+bluetooth 2087  1     1464   804   c01217a8 40094e9c S /system/bin/dbus-daemon
+root      2088  1     916    344   c0669738 40019ed8 S /system/bin/installd
+keystore  2089  1     1880   556   c05a0a28 40057a18 S /system/bin/keystore
+root      2103  2     0      0     c006b168 00000000 S pvr_workqueue
+root      2157  1     4488   204   ffffffff 0000825c S /sbin/adbd
+root      2158  2157  4488   204   c0084bc0 00008f70 S adbd
+root      2159  2157  4488   204   c0669738 000081ac S adbd
+root      2160  2157  4488   204   c04abf0c 000081ac S adbd
+root      2632  2157  4488   204   c0052200 00008e80 S adbd
+root      2167  2     0      0     c006b168 00000000 S omaplfb
+root      2185  2     0      0     c0138bf8 00000000 S flush-179:0
+system    2189  2084  544172 57788 ffffffff 4002c110 S system_server
+system    2191  2189  544172 57788 c0084bc0 4002d030 S GC
+system    2193  2189  544172 57788 c0063a9c 4002c948 S Signal Catcher
+system    2195  2189  544172 57788 c0669738 4002cb50 S JDWP
+system    2196  2189  544172 57788 c0084bc0 4002d030 S Compiler
+system    2197  2189  544172 57788 c0084bc0 4002d030 S ReferenceQueueD
+system    2198  2189  544172 57788 c0084bc0 4002d030 S FinalizerDaemon
+system    2199  2189  544172 57788 c0084bc0 4002d030 S FinalizerWatchd
+system    2200  2189  544172 57788 c054db18 4002c110 S Binder Thread #
+system    2201  2189  544172 57788 c054db18 4002c110 S Binder Thread #
+system    2202  2189  544172 57788 c01217a8 4002ce9c S SensorService
+system    2203  2189  544172 57788 c0151e1c 4002ce24 S er.ServerThread
+system    2204  2189  544172 57788 c0151e1c 4002ce24 S ActivityManager
+system    2206  2189  544172 57788 c0084bc0 4002d030 S ProcessStats
+system    2207  2189  544172 57788 c0151e1c 4002ce24 S PackageManager
+system    2212  2189  544172 57788 c0150524 4002bed8 S FileObserver
+system    2216  2189  544172 57788 c0151e1c 4002ce24 S AccountManagerS
+system    2217  2189  544172 57788 c0151e1c 4002ce24 S SyncHandlerThre
+system    2219  2189  544172 57788 c01217a8 4002ce9c S UEventObserver
+system    2220  2189  544172 57788 c0151e1c 4002ce24 S ScreenOffThread
+system    2221  2189  544172 57788 c0151e1c 4002ce24 S PowerManagerSer
+system    2222  2189  544172 57788 c04db684 4002c110 S AlarmManager
+system    2223  2189  544172 57788 c0151e1c 4002ce24 S WindowManager
+system    2224  2189  544172 57788 c0151e1c 4002ce24 S WindowManagerPo
+system    2225  2189  544172 57788 c0084bc0 4002d030 S SoundPool
+system    2226  2189  544172 57788 c0084bc0 4002d030 S SoundPoolThread
+system    2227  2189  544172 57788 c0151e1c 4002ce24 S InputDispatcher
+system    2228  2189  544172 57788 c0151e1c 4002ce24 S InputReader
+system    2230  2189  544172 57788 c0151e1c 4002ce24 S BluetoothProfil
+system    2233  2189  544172 57788 c0151e1c 4002ce24 S BluetoothProfil
+system    2234  2189  544172 57788 c0151e1c 4002ce24 S BluetoothProfil
+system    2235  2189  544172 57788 c0151e1c 4002ce24 S BluetoothAdapte
+system    2237  2189  544172 57788 c0669738 4002cb50 S NetdConnector
+system    2239  2189  544172 57788 c0151e1c 4002ce24 S CallbackHandler
+system    2243  2189  544172 57788 c0151e1c 4002ce24 S NetworkStats
+system    2244  2189  544172 57788 c0151e1c 4002ce24 S NetworkPolicy
+system    2245  2189  544172 57788 c0151e1c 4002ce24 S WifiP2pService
+system    2246  2189  544172 57788 c0151e1c 4002ce24 S WifiStateMachin
+system    2247  2189  544172 57788 c0151e1c 4002ce24 S WifiService
+system    2248  2189  544172 57788 c0151e1c 4002ce24 S EthernetStateMa
+system    2249  2189  544172 57788 c0151e1c 4002ce24 S DHCP Handler Th
+system    2250  2189  544172 57788 c0151e1c 4002ce24 S ConnectivitySer
+system    2251  2189  544172 57788 c0151e1c 4002ce24 S DHCP Handler Th
+system    2252  2189  544172 57788 c0151e1c 4002ce24 S Tethering
+system    2254  2189  544172 57788 c0151e1c 4002ce24 S WifiWatchdogSta
+system    2258  2189  544172 57788 c0151e1c 4002ce24 S MountService
+system    2259  2189  544172 57788 c0669738 4002cb50 S VoldConnector
+system    2260  2189  544172 57788 c0151e1c 4002ce24 S CallbackHandler
+system    2262  2189  544172 57788 c0151e1c 4002ce24 S AudioService
+system    2263  2189  544172 57788 c0151e1c 4002ce24 S UsbDeviceManage
+system    2264  2189  544172 57788 c0151e1c 4002ce24 S backup
+system    2279  2189  544172 57788 c0150524 4002bed8 S UsbService host
+system    2280  2189  544172 57788 c0084bc0 4002d030 S watchdog
+system    2304  2189  544172 57788 c0151e1c 4002ce24 S LocationManager
+system    2305  2189  544172 57788 c0151e1c 4002ce24 S CountryDetector
+system    2307  2189  544172 57788 c0151e1c 4002ce24 S ThrottleService
+system    2309  2189  544172 57788 c0151e1c 4002ce24 S NetworkTimeUpda
+system    2313  2189  544172 57788 c054db18 4002c110 S Binder Thread #
+system    2356  2189  544172 57788 c054db18 4002c110 S Binder Thread #
+system    2357  2189  544172 57788 c054db18 4002c110 S Binder Thread #
+system    2358  2189  544172 57788 c054db18 4002c110 S Binder Thread #
+system    2414  2189  544172 57788 c054db18 4002c110 S Binder Thread #
+system    2415  2189  544172 57788 c054db18 4002c110 S Binder Thread #
+system    2437  2189  544172 57788 c0084bc0 4002d030 S SoundPool
+system    2438  2189  544172 57788 c0084bc0 4002d030 S SoundPoolThread
+system    2564  2189  544172 57788 c0084bc0 4002d030 S Timer-0
+system    2266  2084  473032 49448 ffffffff 4002ce24 S com.android.systemui
+system    2268  2266  473032 49448 c0084bc0 4002d030 S GC
+system    2271  2266  473032 49448 c0063a9c 4002c948 S Signal Catcher
+system    2272  2266  473032 49448 c0669738 4002cb50 S JDWP
+system    2273  2266  473032 49448 c0084bc0 4002d030 S Compiler
+system    2274  2266  473032 49448 c0084bc0 4002d030 S ReferenceQueueD
+system    2275  2266  473032 49448 c0084bc0 4002d030 S FinalizerDaemon
+system    2276  2266  473032 49448 c0084bc0 4002d030 S FinalizerWatchd
+system    2277  2266  473032 49448 c054db18 4002c110 S Binder Thread #
+system    2278  2266  473032 49448 c054db18 4002c110 S Binder Thread #
+system    2397  2266  473032 49448 c0151e1c 4002ce24 S SystemUI Storag
+app_21    2281  2084  457724 31716 ffffffff 4002ce24 S org.linaro.wallpaper
+app_21    2283  2281  457724 31716 c0084bc0 4002d030 S GC
+app_21    2285  2281  457724 31716 c0063a9c 4002c948 S Signal Catcher
+app_21    2286  2281  457724 31716 c0669738 4002cb50 S JDWP
+app_21    2287  2281  457724 31716 c0084bc0 4002d030 S Compiler
+app_21    2288  2281  457724 31716 c0084bc0 4002d030 S ReferenceQueueD
+app_21    2289  2281  457724 31716 c0084bc0 4002d030 S FinalizerDaemon
+app_21    2290  2281  457724 31716 c0084bc0 4002d030 S FinalizerWatchd
+app_21    2291  2281  457724 31716 c054db18 4002c110 S Binder Thread #
+app_21    2292  2281  457724 31716 c054db18 4002c110 S Binder Thread #
+app_19    2294  2084  455976 31968 ffffffff 4002ce24 S com.android.inputmethod.latin
+app_19    2296  2294  455976 31968 c0084bc0 4002d030 S GC
+app_19    2297  2294  455976 31968 c0063a9c 4002c948 S Signal Catcher
+app_19    2299  2294  455976 31968 c0669738 4002cb50 S JDWP
+app_19    2301  2294  455976 31968 c0084bc0 4002d030 S Compiler
+app_19    2302  2294  455976 31968 c0084bc0 4002d030 S ReferenceQueueD
+app_19    2303  2294  455976 31968 c0084bc0 4002d030 S FinalizerDaemon
+app_19    2306  2294  455976 31968 c0084bc0 4002d030 S FinalizerWatchd
+app_19    2308  2294  455976 31968 c054db18 4002c110 S Binder Thread #
+app_19    2310  2294  455976 31968 c054db18 4002c110 S Binder Thread #
+radio     2315  2084  468032 33120 ffffffff 4002ce24 S com.android.phone
+radio     2319  2315  468032 33120 c0084bc0 4002d030 S GC
+radio     2320  2315  468032 33120 c0063a9c 4002c948 S Signal Catcher
+radio     2323  2315  468032 33120 c0669738 4002cb50 S JDWP
+radio     2324  2315  468032 33120 c0084bc0 4002d030 S Compiler
+radio     2327  2315  468032 33120 c0084bc0 4002d030 S ReferenceQueueD
+radio     2329  2315  468032 33120 c0084bc0 4002d030 S FinalizerDaemon
+radio     2332  2315  468032 33120 c0084bc0 4002d030 S FinalizerWatchd
+radio     2336  2315  468032 33120 c054db18 4002c110 S Binder Thread #
+radio     2341  2315  468032 33120 c054db18 4002c110 S Binder Thread #
+radio     2395  2315  468032 33120 c0151e1c 4002ce24 S RILSender
+radio     2417  2315  468032 33120 c0151e1c 4002ce24 S Cat Telephony s
+radio     2418  2315  468032 33120 c0151e1c 4002ce24 S RilMessageDecod
+radio     2419  2315  468032 33120 c0151e1c 4002ce24 S Cat Icon Loader
+radio     2420  2315  468032 33120 c0151e1c 4002ce24 S AsyncQueryWorke
+radio     2421  2315  468032 33120 c0151e1c 4002ce24 S BluetoothHandsf
+radio     2560  2315  468032 33120 c054db18 4002c110 S Binder Thread #
+radio     2561  2315  468032 33120 c054db18 4002c110 S Binder Thread #
+radio     2562  2315  468032 33120 c054db18 4002c110 S Binder Thread #
+app_38    2342  2084  483900 55408 ffffffff 4002ce24 S com.android.launcher
+app_38    2344  2342  483900 55408 c0084bc0 4002d030 S GC
+app_38    2347  2342  483900 55408 c0063a9c 4002c948 S Signal Catcher
+app_38    2348  2342  483900 55408 c0669738 4002cb50 S JDWP
+app_38    2349  2342  483900 55408 c0084bc0 4002d030 S Compiler
+app_38    2350  2342  483900 55408 c0084bc0 4002d030 S ReferenceQueueD
+app_38    2351  2342  483900 55408 c0084bc0 4002d030 S FinalizerDaemon
+app_38    2352  2342  483900 55408 c0084bc0 4002d030 S FinalizerWatchd
+app_38    2353  2342  483900 55408 c054db18 4002c110 S Binder Thread #
+app_38    2354  2342  483900 55408 c054db18 4002c110 S Binder Thread #
+app_38    2399  2342  483900 55408 c0151e1c 4002ce24 S launcher-loader
+app_38    2416  2342  483900 55408 c0084bc0 4002d030 S AsyncTask #1
+app_3     2360  2084  457428 31416 ffffffff 4002ce24 S android.process.media
+app_3     2361  2360  457428 31416 c0084bc0 4002d030 S GC
+app_3     2363  2360  457428 31416 c0063a9c 4002c948 S Signal Catcher
+app_3     2364  2360  457428 31416 c0669738 4002cb50 S JDWP
+app_3     2367  2360  457428 31416 c0084bc0 4002d030 S Compiler
+app_3     2368  2360  457428 31416 c0084bc0 4002d030 S ReferenceQueueD
+app_3     2369  2360  457428 31416 c0084bc0 4002d030 S FinalizerDaemon
+app_3     2370  2360  457428 31416 c0084bc0 4002d030 S FinalizerWatchd
+app_3     2371  2360  457428 31416 c054db18 4002c110 S Binder Thread #
+app_3     2372  2360  457428 31416 c054db18 4002c110 S Binder Thread #
+app_3     2380  2360  457428 31416 c0151e1c 4002ce24 S thumbs thread
+app_9     2381  2084  475984 37944 ffffffff 4002ce24 S android.process.acore
+app_9     2383  2381  475984 37944 c0084bc0 4002d030 S GC
+app_9     2386  2381  475984 37944 c0063a9c 4002c948 S Signal Catcher
+app_9     2387  2381  475984 37944 c0669738 4002cb50 S JDWP
+app_9     2388  2381  475984 37944 c0084bc0 4002d030 S Compiler
+app_9     2389  2381  475984 37944 c0084bc0 4002d030 S ReferenceQueueD
+app_9     2390  2381  475984 37944 c0084bc0 4002d030 S FinalizerDaemon
+app_9     2391  2381  475984 37944 c0084bc0 4002d030 S FinalizerWatchd
+app_9     2392  2381  475984 37944 c054db18 4002c110 S Binder Thread #
+app_9     2394  2381  475984 37944 c054db18 4002c110 S Binder Thread #
+app_9     2423  2381  475984 37944 c0151e1c 4002ce24 S ApplicationsPro
+app_9     2424  2381  475984 37944 c0151e1c 4002ce24 S ContactsProvide
+app_9     2425  2381  475984 37944 c054db18 4002c110 S Binder Thread #
+app_9     2428  2381  475984 37944 c054db18 4002c110 S Binder Thread #
+app_15    2401  2084  454612 27384 ffffffff 4002ce24 S com.android.smspush
+app_15    2404  2401  454612 27384 c0084bc0 4002d030 S GC
+app_15    2406  2401  454612 27384 c0063a9c 4002c948 S Signal Catcher
+app_15    2407  2401  454612 27384 c0669738 4002cb50 S JDWP
+app_15    2408  2401  454612 27384 c0084bc0 4002d030 S Compiler
+app_15    2409  2401  454612 27384 c0084bc0 4002d030 S ReferenceQueueD
+app_15    2410  2401  454612 27384 c0084bc0 4002d030 S FinalizerDaemon
+app_15    2411  2401  454612 27384 c0084bc0 4002d030 S FinalizerWatchd
+app_15    2412  2401  454612 27384 c054db18 4002c110 S Binder Thread #
+app_15    2413  2401  454612 27384 c054db18 4002c110 S Binder Thread #
+app_9     2433  2084  460928 30416 ffffffff 4002ce24 S com.android.contacts
+app_9     2440  2433  460928 30416 c0084bc0 4002d030 S GC
+app_9     2443  2433  460928 30416 c0063a9c 4002c948 S Signal Catcher
+app_9     2445  2433  460928 30416 c0669738 4002cb50 S JDWP
+app_9     2448  2433  460928 30416 c0084bc0 4002d030 S Compiler
+app_9     2449  2433  460928 30416 c0084bc0 4002d030 S ReferenceQueueD
+app_9     2450  2433  460928 30416 c0084bc0 4002d030 S FinalizerDaemon
+app_9     2451  2433  460928 30416 c0084bc0 4002d030 S FinalizerWatchd
+app_9     2452  2433  460928 30416 c054db18 4002c110 S Binder Thread #
+app_9     2454  2433  460928 30416 c054db18 4002c110 S Binder Thread #
+app_9     2472  2433  460928 30416 c0151e1c 4002ce24 S AccountChangeLi
+app_9     2489  2433  460928 30416 c0151e1c 4002ce24 S AsyncQueryWorke
+app_35    2476  2084  464228 31700 ffffffff 4002ce24 S com.android.email
+app_35    2478  2476  464228 31700 c0084bc0 4002d030 S GC
+app_35    2480  2476  464228 31700 c0063a9c 4002c948 S Signal Catcher
+app_35    2481  2476  464228 31700 c0669738 4002cb50 S JDWP
+app_35    2483  2476  464228 31700 c0084bc0 4002d030 S Compiler
+app_35    2484  2476  464228 31700 c0084bc0 4002d030 S ReferenceQueueD
+app_35    2485  2476  464228 31700 c0084bc0 4002d030 S FinalizerDaemon
+app_35    2486  2476  464228 31700 c0084bc0 4002d030 S FinalizerWatchd
+app_35    2487  2476  464228 31700 c054db18 4002c110 S Binder Thread #
+app_35    2488  2476  464228 31700 c054db18 4002c110 S Binder Thread #
+app_35    2491  2476  464228 31700 c0084bc0 4002d030 S Thread-46
+app_35    2492  2476  464228 31700 c0084bc0 4002d030 S AsyncTask #1
+app_35    2502  2476  464228 31700 c0084bc0 4002d030 S AsyncTask #2
+app_35    2530  2476  464228 31700 c0084bc0 4002d030 S AsyncTask #3
+app_35    2536  2476  464228 31700 c054db18 4002c110 S Binder Thread #
+app_34    2493  2084  462752 29124 ffffffff 4002ce24 S com.android.exchange
+app_34    2495  2493  462752 29124 c0084bc0 4002d030 S GC
+app_34    2497  2493  462752 29124 c0063a9c 4002c948 S Signal Catcher
+app_34    2499  2493  462752 29124 c0669738 4002cb50 S JDWP
+app_34    2500  2493  462752 29124 c0084bc0 4002d030 S Compiler
+app_34    2501  2493  462752 29124 c0084bc0 4002d030 S ReferenceQueueD
+app_34    2503  2493  462752 29124 c0084bc0 4002d030 S FinalizerDaemon
+app_34    2504  2493  462752 29124 c0084bc0 4002d030 S FinalizerWatchd
+app_34    2506  2493  462752 29124 c054db18 4002c110 S Binder Thread #
+app_34    2507  2493  462752 29124 c054db18 4002c110 S Binder Thread #
+app_34    2508  2493  462752 29124 c0084bc0 4002d030 S AsyncTask #1
+app_34    2511  2493  462752 29124 c0084bc0 4002d030 S AsyncTask #2
+app_34    2553  2493  462752 29124 c0084bc0 4002d030 S AsyncTask #3
+app_34    2596  2493  462752 29124 c0084bc0 4002d030 S AsyncTask #4
+app_34    2597  2493  462752 29124 c0084bc0 4002d030 S AsyncTask #5
+app_34    2600  2493  462752 29124 c054db18 4002c110 S Binder Thread #
+app_5     2514  2084  457120 30264 ffffffff 4002ce24 S com.android.providers.calendar
+app_5     2518  2514  457120 30264 c0084bc0 4002d030 S GC
+app_5     2519  2514  457120 30264 c0063a9c 4002c948 S Signal Catcher
+app_5     2520  2514  457120 30264 c0669738 4002cb50 S JDWP
+app_5     2521  2514  457120 30264 c0084bc0 4002d030 S Compiler
+app_5     2522  2514  457120 30264 c0084bc0 4002d030 S ReferenceQueueD
+app_5     2523  2514  457120 30264 c0084bc0 4002d030 S FinalizerDaemon
+app_5     2524  2514  457120 30264 c0084bc0 4002d030 S FinalizerWatchd
+app_5     2526  2514  457120 30264 c054db18 4002c110 S Binder Thread #
+app_5     2531  2514  457120 30264 c054db18 4002c110 S Binder Thread #
+app_5     2622  2514  457120 30264 c054db18 4002c110 S Binder Thread #
+app_13    2540  2084  457276 30108 ffffffff 4002ce24 S com.android.mms
+app_13    2544  2540  457276 30108 c0084bc0 4002d030 S GC
+app_13    2545  2540  457276 30108 c0063a9c 4002c948 S Signal Catcher
+app_13    2546  2540  457276 30108 c0669738 4002cb50 S JDWP
+app_13    2547  2540  457276 30108 c0084bc0 4002d030 S Compiler
+app_13    2548  2540  457276 30108 c0084bc0 4002d030 S ReferenceQueueD
+app_13    2549  2540  457276 30108 c0084bc0 4002d030 S FinalizerDaemon
+app_13    2550  2540  457276 30108 c0084bc0 4002d030 S FinalizerWatchd
+app_13    2551  2540  457276 30108 c054db18 4002c110 S Binder Thread #
+app_13    2552  2540  457276 30108 c054db18 4002c110 S Binder Thread #
+app_13    2555  2540  457276 30108 c0084bc0 4002d030 S Thread-55
+app_17    2565  2084  457204 29408 ffffffff 4002ce24 S com.android.deskclock
+app_17    2567  2565  457204 29408 c0084bc0 4002d030 S GC
+app_17    2569  2565  457204 29408 c0063a9c 4002c948 S Signal Catcher
+app_17    2572  2565  457204 29408 c0669738 4002cb50 S JDWP
+app_17    2573  2565  457204 29408 c0084bc0 4002d030 S Compiler
+app_17    2574  2565  457204 29408 c0084bc0 4002d030 S ReferenceQueueD
+app_17    2575  2565  457204 29408 c0084bc0 4002d030 S FinalizerDaemon
+app_17    2576  2565  457204 29408 c0084bc0 4002d030 S FinalizerWatchd
+app_17    2577  2565  457204 29408 c054db18 4002c110 S Binder Thread #
+app_17    2578  2565  457204 29408 c054db18 4002c110 S Binder Thread #
+app_17    2579  2565  457204 29408 c0151e1c 4002ce24 S AsyncHandler
+app_17    2581  2565  457204 29408 c0084bc0 4002d030 S pool-1-thread-1
+system    2582  2084  461960 30148 ffffffff 4002ce24 S com.android.settings
+system    2584  2582  461960 30148 c0084bc0 4002d030 S GC
+system    2585  2582  461960 30148 c0063a9c 4002c948 S Signal Catcher
+system    2586  2582  461960 30148 c0669738 4002cb50 S JDWP
+system    2587  2582  461960 30148 c0084bc0 4002d030 S Compiler
+system    2588  2582  461960 30148 c0084bc0 4002d030 S ReferenceQueueD
+system    2589  2582  461960 30148 c0084bc0 4002d030 S FinalizerDaemon
+system    2590  2582  461960 30148 c0084bc0 4002d030 S FinalizerWatchd
+system    2593  2582  461960 30148 c054db18 4002c110 S Binder Thread #
+system    2594  2582  461960 30148 c054db18 4002c110 S Binder Thread #
+app_37    2605  2084  459144 29796 ffffffff 4002ce24 S com.android.calendar
+app_37    2607  2605  459144 29796 c0084bc0 4002d030 S GC
+app_37    2610  2605  459144 29796 c0063a9c 4002c948 S Signal Catcher
+app_37    2611  2605  459144 29796 c0669738 4002cb50 S JDWP
+app_37    2612  2605  459144 29796 c0084bc0 4002d030 S Compiler
+app_37    2613  2605  459144 29796 c0084bc0 4002d030 S ReferenceQueueD
+app_37    2614  2605  459144 29796 c0084bc0 4002d030 S FinalizerDaemon
+app_37    2615  2605  459144 29796 c0084bc0 4002d030 S FinalizerWatchd
+app_37    2616  2605  459144 29796 c054db18 4002c110 S Binder Thread #
+app_37    2617  2605  459144 29796 c054db18 4002c110 S Binder Thread #
+app_37    2620  2605  459144 29796 c0084bc0 4002d030 S AsyncTask #1
+app_37    2621  2605  459144 29796 c0151e1c 4002ce24 S AsyncQueryWorke
+app_37    2623  2605  459144 29796 c0084bc0 4002d030 S AsyncTask #2
+root      2631  2157  864    464   c00189e0 400838f4 S /system/bin/sh
+root      2810  2     0      0     c0069358 00000000 S kworker/0:1
+root      2811  2631  860    404   c00189e0 400968f4 S /system/bin/sh
+root      2813  2811  1048   360   00000000 400aced8 R ps
